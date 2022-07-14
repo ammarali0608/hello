@@ -8,6 +8,8 @@ import Counter from "./components/Counter";
 import DestructingProps from "./components/DestructingProps";
 import FuncitonClick from "./components/FuncitonClick";
 import ClassCLick from "./components/ClassCLick";
+import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
@@ -31,8 +33,10 @@ function App() {
         <p>Now another ones</p>
         <p>Props are immutable mean value of props can't be changed</p>{" "}
       </DestructingProps> */}
-      <FuncitonClick />
-      <ClassCLick />
+      {/* <FuncitonClick />
+      <ClassCLick /> */}
+      {/* <EventBind /> */}
+      <ParentComponent />
     </div>
   );
 }
