@@ -11,8 +11,10 @@ function NameList() {
     { id: 2, name: "Salman", age: 22 },
     { id: 3, name: "Mujeeb", age: 12 },
   ];
-
-  const personList = persons.map((person) => <Person person={person} />);
+  // remember key is not a prop
+  const personList = persons.map((person) => (
+    <Person key={person.id} person={person} />
+  ));
   return <div>{personList}</div>;
 }
 
