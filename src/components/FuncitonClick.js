@@ -1,7 +1,9 @@
 import React from "react";
 
 function FuncitonClick() {
-  function clickHandler() {}
+  function clickHandler() {
+    console.log("Function CLick");
+  }
 
   return (
     <div>
